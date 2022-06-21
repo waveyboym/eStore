@@ -1,0 +1,236 @@
+.cart-section{
+    display: flex;
+}
+
+.trolley{
+    margin-left: 5vw;
+    margin-top: 9vh;
+    width: 60vw;
+    height: 68vh;
+    border-radius: 31px;
+    background: #ededed;
+    box-shadow:  35px 35px 70px #c9c9c9,
+             -35px -35px 70px #ffffff;
+    transition: all 0.7s ease-in-out;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.trolley::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+.trolley::-webkit-scrollbar-track {
+    margin-top: 5vh;
+    background-color: transparent;
+    border-radius: 7px;
+    margin-bottom: 5vh;
+}
+   
+/* Handle */
+.trolley::-webkit-scrollbar-thumb {
+    
+    background: rgba(180, 179, 179, 0.709); 
+    border-radius: 15px;
+}
+  
+/* Handle on hover */
+.trolley::-webkit-scrollbar-thumb:hover {
+    background: rgba(247, 81, 198, 0.75); 
+}
+
+            
+.trolley:hover{
+    transform: scale(1.03);
+}
+
+.trolley h1{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.item-header{
+    margin-top: 1%;
+    width: 60vw;
+    height: 4vh;
+    display: flex;
+}
+
+.item-header h2{
+    margin-left: 6%;
+    font-size: 16px;
+}
+
+.item-header h3{
+    margin-left: 65%;
+    font-size: 16px;
+}
+
+.item-header h4{
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.items{
+    width: 60vw;
+}
+
+.item{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.item-description{
+    margin-left: 3%;
+    width: 43.2vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-class{
+    overflow: hidden;
+    width: 5.94vw;
+    height: 13vh;
+    border-radius:  12px;
+}
+
+.product-image-image{
+    display: inline;
+    min-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-desc{
+    width: 36vw;
+    margin-left: 1.26vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-desc h2{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-desc h3{
+    margin-top: 2%;
+    font-size: 12px;
+}
+
+.item-price{
+    width: 15%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-price h2{
+    font-size: 12px;
+}
+
+.delete-item{
+    width: 7.1%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-logo{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.item-logo:hover{
+    transform: scale(1.2);
+}
+
+#deleteID{
+    width: 100%;
+    height: 100%;
+}
+
+.checkout{
+    margin-left: 5vw;
+    margin-top: 9vh;
+    width: 25vw;
+    height: 68vh;
+    border-radius: 31px;
+    background: #ededed;
+    background-image: url("wave.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow:  35px 35px 70px #c9c9c9,
+             -35px -35px 70px #ffffff;
+    transition: all 0.7s ease-in-out;
+    color: white;
+}
+                        
+.checkout:hover{
+    transform: scale(1.03);
+}
+
+.checkout h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20%;
+}
+
+.checkout h2, .checkout h5{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3%;
+}
+
+.checkout h3{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5%;
+}
+
+.checkout-button, .paypal-checkout{
+    margin-top: 6%;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: white;
+    border-radius: 25px;
+    border: 0.5px solid rgb(221, 220, 220);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout-button:hover, .paypal-checkout:hover{
+    transform: scale(1.03);
+}
+
+.checkout-button{
+    background-color: rgb(44, 44, 44);
+}
+
+.paypal-logo{
+    width: 15vw;
+    height: 5vh;
+}
+
+#paypallogoID{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,142 @@
+.top-deals{
+    width: 100vw;
+    height: 50.56vh;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.deal{
+    margin-left: 7.7%;
+    width: 23.13vw;
+    height: 50.56vh;
+    border-radius: 31px;
+    box-shadow:  32px 32px 63px #c9c9c9,
+             -32px -32px 63px #ffffff;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+.deal:hover{
+    transform: scale(1.05);
+}
+
+.deal h2{
+    margin-top: 40vh;
+    margin-left: 3%;
+}
+
+.top-gpu h2, .top-utensils h2{
+    color: white;
+}
+
+.top-phones h2{
+    color: gray;
+}
+
+.top-gpu, .top-phones, .top-utensils{
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-gpu{
+    background-image: url("../topdeals/gpu.jpg");
+}
+
+.top-phones{
+    background-image: url("../topdeals/phones.jpg");
+}
+
+.top-utensils{
+    background-image: url("../topdeals/utensils.jpg");
+}
+
+.store-products h1{
+    text-align: center;
+    font-size: 27px;
+}
+
+.categories{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category{
+    margin-top: 3.5%;
+    height: 32.16vh;
+    width: 14.71vw;
+    margin-left: 4.41vw;
+    border-radius: 31px;
+    box-shadow:  20px 20px 40px #c9c9c9,
+             -20px -20px 40px #ffffff;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.category:hover{
+    transform: scale(1.05);
+}
+
+.category h2{
+    font-size: 14px;
+    margin-left: 5%;
+    margin-top: 28vh;
+}
+
+.arts-craft, .beauty, .books, .computers, .technology, .kitchen-and-home,
+.clothing, .television, .consoles, .video-games{
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.arts-craft{
+    background-image: url("../categories/artAndcrafts.jpg");
+    color: black;
+}
+
+.beauty{
+    background-image: url("../categories/beautyProducts.jpg");
+    color: white;
+}
+
+.books{
+    background-image: url("../categories/books.jpg");
+    color: gray;
+}
+
+.computers{
+    background-image: url("../categories/computer.jpg");
+    color: gray;
+}
+
+.technology{
+    background-image: url("../categories/technology.jpg");
+    color: gray;
+}
+
+.kitchen-and-home{
+    background-image: url("../categories/appliances.jpg");
+    color: white;
+}
+
+.clothing{
+    background-image: url("../categories/clothing.jpg");
+    color: white;
+}
+
+.television{
+    background-image: url("../categories/television.jpg");
+    color: rgb(199, 199, 199);
+}
+
+.consoles{
+    background-image: url("../categories/console.jpg");
+    color: white;
+}
+
+.video-games{
+    background-image: url("../categories/video-games.jpg");
+}

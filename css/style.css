@@ -1,0 +1,1022 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+     M           Y                               C                O                  D                E 
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 7px;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(180, 179, 179, 0.709); 
+    border-radius: 15px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(247, 81, 198, 0.75); 
+}
+
+/*commonly shared code*/
+
+#layerlogoID, #scrollBelowID, #discordlogoID, #googlelogoID
+, #instagramlogoID, #tiktoklogoID, #twitterlogoID, #redditlogoID
+, #applePaylogoID, #mastercardlogoID, #paypallogoID, #visalogoID
+, #googlesignupID{
+    height: 100%;
+    width: 100%;
+}
+
+.header-section h2:hover, .header-section h3:hover, .header-section h1:hover
+, .logo-section:hover, .navigation-logo:hover, .nav-logo-section h1:hover
+, .arrow-down:hover{
+    transform: scale(1.05);
+    color: grey;
+}
+
+/* css code*/
+
+body{
+    overflow: overlay;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    overflow-x: hidden;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.landingpage{
+    width: 100%;
+    height: 110vh;
+    background-image: url("../img/3cubes.jpg");
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.header-section{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo-section{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2.5%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-section h1{
+    margin-left: 1.35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-section h2, .header-section h3, .header-section h4{
+    margin-left: 1.35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+}
+
+.header-section h2, .header-section h3{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-section h2{
+    margin-left: 55%;
+}
+
+.image-class-layer-logo{
+    width: 45px;
+    height: 45px;
+}
+
+.introText{
+    width: 100vw;
+    height: 21vh;
+}
+
+.introText h1{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 40px;
+    transition: all 1s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.takeToShop{
+    margin-top: 21%;
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickable, .clickable-about{
+    width: 12vw;
+    height: 7vh;
+    border-radius: 14px;
+    background-color: white;
+    border: 1px solid rgb(221, 220, 220);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.clickable:hover, .clickable-about:hover{
+    transform: scale(1.1);
+}
+
+.clickable h1, .clickable h3, .clickable-about h3{
+    padding-top: 8%;
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+}
+/**********************************************************************************
+
+    S   T   O   R   E
+    S   T   O   R   E
+    S   T   O   R   E
+    S   T   O   R   E
+    S   T   O   R   E
+
+
+***********************************************************************************/
+
+.store-section{
+    width: 100%;
+    height: 100vh;
+    margin-top: -10vh;
+    display: flex;
+    background-image: url("../img/rectangle.jpg");/*https://unsplash.com/photos/50GSjnC7qXw*/
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.store-features-one{
+    width: 36vw;
+    height: 100vh;
+}
+
+.invisible-element{
+    width: 36vw;
+    height: 7.5vh;
+}
+
+.tileOne, .tileTwo, .tileThree, .tileFour{
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vh;
+    background-color: white;   
+    border-radius: 12px;
+    box-shadow: 0 7px 15px rgba(35, 35, 35, 0.246);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.tileOne:hover, .tileTwo:hover, .tileThree:hover, .tileFour:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    border: 3px solid rgb(221, 220, 220);
+    margin-top: 14.5vh;
+}
+
+.tileTwo, .tileFour{
+    margin-top: 15vh;
+}
+
+.tileOne:hover, .tileThree:hover{
+    margin-top: -1vh;
+}
+
+.tileTwo{
+    background-image: url("../products/pottery.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tileThree{
+    background-image: url("../products/console.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes slidy {
+    0% { margin-left: 0vw; }
+    20% { margin-left: 0vw; }
+    25% { margin-left: 0vw; }
+    45% { margin-left: -30vw; }
+    50% { margin-left: -30vw; }
+    70% { margin-left: -30vw; }
+    75% { margin-left: -30vw; }
+    85% { margin-left: -30vw; }
+    95% { margin-left: 0vw; }
+    100% { margin-left: 0vw; }
+}
+/*animation is here*/
+.products-part{
+    width: 60vw;
+    height: 35vh;
+    display: flex;
+    /*animation: 10s slidy infinite;*/
+    border-radius: 12px;
+}
+
+.single-product{
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35vh;
+    display: inline-block;  
+    position: inherit;
+}
+
+.single-product img{
+    width: 100%; 
+    height: 100%;
+}
+
+.single-product figcaption, .tileTwo figcaption, .tileThree figcaption{
+    position: absolute;
+    font-size: 20px; 
+    bottom: 0;
+    padding: 4vh; 
+}
+
+.navigation{
+    width: 27vw;
+    height: 100vh;
+}
+
+.navigation-header{
+    display: flex;
+    width: 27vw;
+    height: 10vh;
+}
+
+.navigation-header h2, .navigation-header h3{
+    text-align: center;
+    margin-left: 7.5%;
+    margin-top: 7%;
+    font-size: 14px;
+}
+
+.navigation-header h2{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-header h2:hover{
+    transform: scale(1.05);
+    color: grey;
+}
+
+.nav-logo-section{
+    margin-top: 115%;
+    display: flex;
+    height: 10vh;
+}
+
+.navigation-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 27%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-logo-section h1{
+    margin-left: 1.35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-layer-logo{
+    width: 45px;
+    height: 45px;
+}
+
+.scroll-below, .scrollForMore, .scrollBackUP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-features-two{
+    width: 36vw;
+    height: 100vh;
+}
+
+/**********************************************************************************
+
+    A   B   O   U   T           C   O   N   T   A   C   T
+    A   B   O   U   T           C   O   N   T   A   C   T
+    A   B   O   U   T           C   O   N   T   A   C   T
+    A   B   O   U   T           C   O   N   T   A   C   T
+    A   B   O   U   T           C   O   N   T   A   C   T
+
+***********************************************************************************/
+
+.about-contact-section{
+    width: 100%;
+    padding-top: 10vh;
+    margin-top: -10vh;
+    z-index: 1;
+    height: 110vh;
+    background-image: url("../img/3cubes.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.about-contact-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.about-us-section{
+    margin-top: 10vh;
+    margin-left: 6.67vw;
+    width: 60vw;
+    height: 80vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.075),rgba(255, 0, 200, 0.108));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow:hidden;
+    transition: all 1s ease-in-out;
+}
+
+.about-us-section:hover{
+    transform: scale(1.05);
+}
+
+.details-about-us{
+    width: 60vw;
+    height: 80vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.details-about-us h1{
+    font-size: 70px;
+    margin-top: 2%;
+    margin-left: 5%;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.text-section{
+    display:flex;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.text-section p{
+    font-size: 23px;
+}
+
+.text-section h2{
+    font-size: 23px;
+    margin-left: 3%;
+}
+
+.description-section{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.scrollForMore{
+    margin-top: 3%;
+}
+
+.details-about-us-animate{
+    animation: slidePageDown 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidePageDown {
+    from{
+        margin-top: 0vh;
+    }
+    to{
+        margin-top: -82.5vh;
+    }
+}
+
+.timeline-about-us-animate{
+    animation: slidePageUP 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidePageUP {
+    from{
+        margin-top: -82.5vh;
+    }
+    to{
+        margin-top: 0vh;
+    }
+}
+
+.timeline-about-us{
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    background-image: url("../img/circles.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.scrollBackUP{
+    padding-top: 3%;
+}
+
+.contact-us-section{
+    margin-top: 10vh;
+    margin-left: 6.67vw;
+    width: 20vw;
+    height: 80vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.075),rgba(0, 174, 255, 0.108));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.contact-us-section h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+.platform{
+    margin-top: 5%;
+    width: 17vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 7vh;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(221, 220, 220);
+    transition: all 0.5s ease-in-out;
+}
+
+.platform:hover{
+    transform: scale(1.04);
+}
+
+.logo-image{
+    margin-left: 6%;
+    width: 7vh;
+    height: 7vh;
+}
+
+.platform-link{
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.platform-link h2{
+    font-size: 15px;
+    color: grey;
+}
+
+.scroll-to-below-section{
+    margin-top: 12%;
+    margin-left: 19%;
+}
+
+/**********************************************************************************
+
+        S   I   G   N   U   P        L   O   G   I   N
+        S   I   G   N   U   P        L   O   G   I   N
+        S   I   G   N   U   P        L   O   G   I   N
+        S   I   G   N   U   P        L   O   G   I   N
+        S   I   G   N   U   P        L   O   G   I   N
+
+***********************************************************************************/
+
+.signup-login-section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/orange.jpg");/*https://unsplash.com/photos/2sICkGsJRQY*/
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    z-index: 2;
+    margin-top: -10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-login, .navigation-menu{
+    width: 30vw;
+    height: 80vh;
+}
+
+.sign-up-login{
+    background: linear-gradient(to left top, rgba(174, 0, 255, 0.075),rgba(255, 136, 0, 0.108));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sign-up-login-container{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+}
+
+.login{
+    width: 30vw;
+    height: 80vh;
+    transition: all 1s ease-in-out;
+}
+
+.signup{
+    width: 30vw;
+    height: 80vh;
+}
+
+.login h1{
+    margin-top: 3%;
+    font-size: 35px;
+    text-align: center;
+}
+
+.login h2{
+    margin-top: 2.5%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.signup h1{
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-left: 2.5vw;
+}
+
+.signup h2{
+    font-size: 14px;
+    margin-left: 2.5vw;
+}
+
+.login form input[type="text"], .login form input[type="password"], .signup form input[type="text"], .signup form input[type="password"]{
+    width: 25vw;
+    margin-left: 2.5vw;
+    margin-top: 3%;
+    border: none;
+    outline: none;
+    background-color: #fffffff1;
+    font-size: 20px;
+    padding-top: 5%;
+    letter-spacing: 2px;
+    padding-bottom: 2.5%;
+    border-radius: 5px;
+}
+
+#greycolor1::placeholder, #greycolor2::placeholder, #greycolor3::placeholder, #greycolor4::placeholder, #greycolor5::placeholder, #greycolor6::placeholder{
+    color: grey;
+}
+
+#redcolor1::placeholder, #redcolor2::placeholder, #redcolor3::placeholder, #redcolor4::placeholder, #redcolor5::placeholder, #redcolor6::placeholder{
+    color: rgb(244, 103, 103);
+}
+
+.login form button[type="submit"], .signup form button[type="submit"]{
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 8%;
+    width: 25vw;
+    margin-left: 2.7vw;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #e65a48, #ffb056);
+    box-shadow:  4px 7px 15px #97624d8c;
+}
+
+.login form button[type="submit"]{
+    margin-top: 12%;
+}
+
+.login form button[type="submit"]:hover, .signup form button[type="submit"]:hover{
+    opacity: 0.9;
+}
+
+.other-sign-in-methods{
+    width: 25vw;
+    height: 7vh;
+    margin-left: 2.7vw;
+    border-radius: 5px;
+    padding-top: 2%;
+}
+
+.googlesignup{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: antiquewhite;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.login h3, .signup h3{
+    margin-top: 4%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login h3:hover, .signup h3:hover{
+    color: gray;
+}
+
+.login-animate{
+    animation: slidePageLeft 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidePageLeft {
+    from{
+        margin-left: 0vw;
+    }
+    to{
+        margin-left: -30vw;
+    }
+}
+
+.signup-animate{
+    animation: slidePageRight 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidePageRight {
+    from{
+        margin-left: -30vw;
+    }
+    to{
+        margin-left: 0vw;
+    }
+}
+
+.navigation-menu{
+    margin-left: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu-container{
+    background: linear-gradient(to left top, rgba(174, 0, 255, 0.075),rgba(115, 115, 146, 0.108));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 20vw;
+    transition: all 0.7s ease-in-out;
+}
+
+.nav-menu-container:hover{
+    transform: scale(1.1);
+}
+
+.navigation-menu-logo{
+    margin-top: 15%;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-menu-layer-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 9vh;
+    height: 9vh;
+    cursor: pointer;
+}
+
+.navigation-menu-logo:hover{
+    transform: scale(1.05);
+}
+
+.navigation-menu h3{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-menu h2{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-menu h3:hover, .navigation-menu h2:hover{
+    color: gray;
+}
+
+.nav-scroll-below{
+    margin-top: 10%;
+   margin-left: 4vw;
+   margin-bottom: 10%;
+}
+
+/**********************************************************************************
+
+        F     O      O      T      E     R
+        F     O      O      T      E     R
+        F     O      O      T      E     R
+        F     O      O      T      E     R
+        F     O      O      T      E     R
+
+
+***********************************************************************************/
+
+.footer-section{
+    width: 100%;
+    padding-top: 10vh;
+    margin-top: -10vh;
+    z-index: 1;
+    height: 100vh;
+    background-image: url("../img/3cubes.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.company-logo{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-class-layer-logo{
+    width: 13vh;
+    height: 13vh;
+    cursor: pointer;
+}
+
+.company-logo h1{
+    font-size: 50px;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.footer-part{
+    width: 100%;
+    height: 60vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url("../img/wave.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.footer-links, .send-a-letter{
+    margin-top: 5vh;
+    width: 32.5vw;
+    height: 50vh;
+    margin-bottom: 5vh;
+    margin-left: 2.5vw;
+}
+
+.send-a-letter{
+    background: linear-gradient(rgba(255, 255, 255, 0.075),rgba(0, 51, 255, 0.108));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-left: 0vw;
+}
+
+.footer-links h2{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-links h2:hover{
+    color: gray;
+}
+
+.footer-links h3{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+.footer-links h2:first-child{
+    margin-top: 7%;
+}
+
+.sponsor-section{
+    margin-top: 40vh;
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+}
+
+.sponsor{
+    width: 12vh;
+    height: 12vh;
+}
+
+.company-logo-image{
+    width: 12vh;
+    height: 12vh;
+    margin-left: 1.6vw;
+}
+
+.send-a-letter h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.send-a-letter > input[type="text"]{
+    width: 27.5vw;
+    margin-left: 2.25vw;
+    margin-top: 3%;
+    border: 1px solid rgb(221, 220, 220);
+    background: none;
+    font-size: 12px;
+    letter-spacing: 5px;
+    outline-color: none;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.send-a-letter > input[type="text"]::placeholder{
+    color: gray;
+}
+
+textarea {
+    margin-top: 3%;
+    margin-left: 2.25vw;
+    width: 27.75vw;
+    height: 21vh;
+    box-sizing: border-box;
+    border: 1px solid rgb(221, 220, 220);
+    outline-color: none;
+    color: gray;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.send-a-letter h2{
+    margin-top: 0.5%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.send-message-section{
+    margin-top: 2%;
+    margin-left: 31.5%;
+}
