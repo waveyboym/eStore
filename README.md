@@ -4,7 +4,7 @@ a store using an amazon API to fetch data and display it for the user
 # preview images
 ![store page](presentationstuff/store.png "store page")
 
-![product Details](presentationstuff/productDetails.png "product Details")
+![product Details](presentationstuff/productdetails.png "product Details")
 
 ![cart img](presentationstuff/cart.png "cart img")
 
